@@ -1,4 +1,4 @@
-import s from './FriendList.module.css';
+import s from './FriendListItem.module.css';
 import PropTypes from 'prop-types';
 const FriendListItem = ({ options }) => {
   return options.map(({ id, avatar, isOnline, name }) => {

@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import ProfileItem from './ProfileItem';
+import ProfileItem from '../profileItem/ProfileItem';
 const ProfileList = ({ stats }) => {
   const statsArr = Object.keys(stats);
 

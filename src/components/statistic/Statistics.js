@@ -1,6 +1,6 @@
 import s from './Statistics.module.css';
 import PropTypes from 'prop-types';
-import ProfileItem from '../1/ProfileItem';
+import ProfileItem from '../profile/profileItem/ProfileItem';
 
 const Statistics = ({ title, stats }) => {
   return (

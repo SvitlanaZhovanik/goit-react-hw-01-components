@@ -1,6 +1,6 @@
 import s from './Profile.module.css';
 import PropTypes from 'prop-types';
-import ProfileList from './ProfileList';
+import ProfileList from './profileList/ProfileList';
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className={s.container}>
@@ -12,7 +12,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
       </div>
 
       <ul className={s.stats}>
-        <ProfileList stats={stats} />
+        <ProfileList stats={stats} />s
       </ul>
     </div>
   );

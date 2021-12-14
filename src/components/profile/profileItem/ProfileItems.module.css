@@ -1,0 +1,21 @@
+.item {
+  min-width: 40px;
+  padding: 8px;
+  flex-grow: 1;
+  text-align: center;
+  border-top: 1px solid #535050;
+  box-shadow: 3px -2px 20px 9px rgba(34, 60, 80, 0.2) inset;
+}
+
+.item:not(:last-child) {
+  border-right: 1px solid #535050;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+.quantity {
+  display: block;
+}
