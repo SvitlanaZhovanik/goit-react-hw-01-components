@@ -10,10 +10,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
         <p className={s.tag}>@{tag}</p>
         <p className={s.location}>{location}</p>
       </div>
-
-      <ul className={s.stats}>
-        <ProfileList stats={stats} />s
-      </ul>
+      <ProfileList stats={stats} />
     </div>
   );
 };
